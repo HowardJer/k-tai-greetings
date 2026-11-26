@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("images/homepage_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Navigation bar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 5%;
+    background: rgba(5, 22, 48, 0.85);
+}
+
+/* Website logo */
+
+.logo {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: #ff8c00;
+}
+
+/* Navigation links */
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ff8c00;
+}
+
+
+/* Homepage introduction */
+
+.hero {
+    padding: 90px 6%;
+    max-width: 850px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Name */
+
+.hero h1 {
+    font-size: clamp(42px, 5vw, 72px);
+    font-weight: 700;
+    margin: 0 0 18px 0;
+}
+
+/* Areas of experience */
+
+.specialties {
+    font-size: clamp(14px, 1.5vw, 20px);
+    margin: 0 0 30px 0;
+    line-height: 1.6;
+}
+
+.specialties span {
+    color: #ff8c00;
+    padding: 0 8px;
+}
+
+/* Orange dividing line */
+
+.accent-line {
+    width: 100px;
+    height: 3px;
+    background: #ff8c00;
+    margin-bottom: 30px;
+}
+
+/* Main message */
+
+.tagline {
+    font-size: clamp(22px, 2.5vw, 34px);
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 25px 0;
+}
+
+/* Coming soon message */
+
+.coming-soon {
+    font-size: 15px;
+    color: #ffb347;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* Background for all secondary pages */
+
+body.inner-page {
+    background-color: #061a33;
+    background-image: url("images/otherpage_background.png");
+    background-position: bottom right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Secondary page content */
+
+.page-content {
+    padding: 60px 6%;
+    max-width: 1300px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.page-content h1 {
+    font-size: clamp(36px, 4vw, 56px);
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.page-content p {
+    font-size: clamp(16px, 1.5vw, 22px);
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+}
+
+
+/* Personal philosophy */
+
+.philosophy {
+    border-left: 4px solid #ff8c00;
+    padding: 10px 25px;
+    margin: 35px 0;
+
+    color: #ffb347;
+    font-size: clamp(22px, 2.5vw, 32px);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.4;
+}
